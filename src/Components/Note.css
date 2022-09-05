@@ -1,0 +1,36 @@
+.note{
+    padding: 25px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+
+.note_text{
+    resize: none;
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.del{
+    font-size: 1.5rem;
+    color: rgb(19, 17, 17);
+    cursor: pointer;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.note:hover .del{
+    opacity: 1;
+}

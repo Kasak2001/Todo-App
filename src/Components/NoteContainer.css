@@ -1,0 +1,15 @@
+/* .note_container{
+    height: 100%;
+} */
+
+.note_container_notes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
